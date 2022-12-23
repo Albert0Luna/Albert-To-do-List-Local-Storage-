@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffddd2;
+    color: #222;
+    font-family: Arial;
+}
+
+.bar {
+    width: 100vw;
+    padding: 4%;
+    text-align: center;
+    font-size: 1.4rem;
+    background-color: #006d77;
+    color: #edfff9;
+    letter-spacing: 1.5px;
+}
+
+.title {
+    text-align: center;
+    margin: 25px 60px 20px 60px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    width: 1005;
+    height: min-content;
+    letter-spacing: 1px;
+    background-color: #222;
+    color: #fbfbfb;
+    font-weight: normal;
+    
+}
+
+/* *Input section */
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #83c5be;
+    margin: 0px 60px;
+    border-radius: 5px 5px 0px 0px;
+    justify-content: space-between;
+}
+
+.input {
+    border: none;
+    padding: 3px 6px;
+    border-radius: 4px;
+    width: 75%;
+    outline: none;
+    padding: 5px;
+    letter-spacing: .6px;
+    font-size: 1.1rem;
+}
+
+
+.submit {
+    border: none;
+    padding: 6px 6px;
+    border-radius: 4px;
+    background-color: #e29578;
+    color: #fff;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+/* *List */
+.item-content {
+    margin: 0px 60px;
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px 5px;
+    background-color: #006d77;
+}
+
+.item {
+    background-color: #fbfbfb;
+    display: flex;
+    justify-content: space-between;
+    margin: 3px 6px 8px 6px;
+    padding: 4px 6px;
+    border-radius: 5px;
+    color: #222;
+    font-size: 1.1rem;
+}
+
+.delete {
+    color: crimson;
+    background-color: none;
+    border: none;
+    font-size: 1rem;
+}
+
+/* !Media querryes */
+
+@media screen and (min-width: 600px) {
+    
+    .title {
+        margin: 25px auto 20px;
+        width: 500px;
+    }
+
+    .bar {
+        padding: 25px;
+        font-size: 1.5rem;
+    }
+
+    .input-section {
+        width: 500px;
+        margin: auto;
+    }
+
+    .submit {
+        width: 70px;
+    }
+
+    .item-content {
+        width: 500px;
+        margin: auto;
+    }
+
+    .input {
+        width: 400px;
+    }
+
+}
+
+
